@@ -22,3 +22,8 @@ VALUES ('Bailey', 2, 'Medium', 10.1, 'Golden Retriever', true);
 
 INSERT INTO puppies (name, age, size, weight, race, alive) 
 VALUES ('Max', 4, 'Small', 4.6, 'Yorkshire Terrier', true);
+
+SELECT * FROM puppies;
+SELECT name, age FROM puppies;
+SELECT * FROM puppies WHERE age < 2;
+SELECT * FROM puppies WHERE age > 1;
